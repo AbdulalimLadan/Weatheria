@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3666D4</color>
+    <color name="colorPrimaryDark">#3666D4</color>
+    <color name="colorAccent">#3666D4</color>
+
+    <color name="gradient_1">#3666D4</color>
+    <color name="gradient_2">#9BD1FF</color>
+
+    <color name="colorWhite">#fafafa</color>
+    <color name="colorBlack">#1f1f1f</color>
+
+    <color name="weather_card_color">#44ffffff</color>
+</resources>
