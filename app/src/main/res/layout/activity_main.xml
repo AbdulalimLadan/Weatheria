@@ -65,37 +65,43 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="150dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center"
-                android:src="@drawable/partlysunny"/>
-            <Space
-                android:layout_width="5dp"
-                android:layout_height="0dp"/>
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/partlysunny"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="0dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20°"
+                    android:textSize="60sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20°"
-                android:textSize="60sp"
-                android:textColor="@color/colorWhite"
-                android:textStyle="bold"/>
-
+                android:text="Partly Sunny"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"/>
         </LinearLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Partly Sunny"
-            android:layout_gravity="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/colorWhite"/>
 
     </LinearLayout>
     <LinearLayout
@@ -172,6 +178,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:weightSum="3"
             android:orientation="horizontal">
 
