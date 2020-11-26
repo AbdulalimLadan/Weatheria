@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/awesome_dialog_text_field"/>
+
+        <ImageView
+            android:id="@+id/awesome_dialog_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_close_24"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/awesome_dialog_text_field">
+
+        <EditText
+            android:id="@+id/awesome_dialog_city_search_field"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="80dp"
+            android:hint="Search for city..."/>
+
+        <ImageButton
+            android:id="@+id/awesome_dialog_city_search_button"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="8dp"
+            android:layout_marginEnd="10dp"
+            android:padding="2dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_search_location"
+            app:tint="@color/colorWhite"
+            android:background="@drawable/awesome_dialog_btn"/>
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="450dp"/>
+
+</LinearLayout>
